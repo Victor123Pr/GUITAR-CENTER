@@ -1,0 +1,99 @@
+        body {/* Estilo do corpo da página */
+        font-family:Arial, sans-serif; /* Define a fonte do texto */
+        margin: 0; /* Remove margem externa */
+        padding: 0; /* Remove preenchimento interno */
+        background-color: #000000; /* Define a cor de fundo do site */
+        overflow: hidden;
+        }
+        .capa img{
+         width: 100%;
+         height: 100%;
+         height: 800px;
+         object-position: center;
+        }
+
+
+    header{ /* Estilo do cabeçalho */
+        color: rgb(255, 255, 255); /* Cor do texto branca */
+        padding: 20px; /* Espaço interno */
+        text-align: center; /* Centraliza o texto */
+       
+    }
+
+    nav { /* estilo da barra de navegação */
+        background-color: #333; /* Cor de fundo cinza escuro */
+        padding: 10px; /* espaço interno */
+        text-align: center; /* Centraliza os links */
+    }
+
+    nav a { /* Estilo dos links de navegação */
+        color: rgb(255, 249, 249); /* Cor do texto branco */
+        margin: 0 15px; /* Espaço entre links */
+        text-decoration: none; /* remove o sublinhado */
+    }
+
+    nav a:hover { /* efeito ao passar o mouse sobre o link */
+        text-decoration: underline; /* Adiciona sublinhad.capa {
+            text-align: center;
+        }o */
+    }
+
+    main { /* estilo da área principal de conteúdo */
+        padding: 20px; /* Espaço interno */
+    }
+
+    footer { /* estilo rodapé */
+        background-color: #222; /* Cor de fundo escura */
+        color: white; /* Texto branco */
+        text-align: center; /* Centraliza o texto */
+        padding: 10px; /* Espaço interno */
+        position: fixed; /* Fixa no final da tela */
+        bottom: 0; /* Cola no rodapé */
+        width: 100%; /* Ocupa toda a largura */
+    }
+    
+    #sobre {background-color: white;}
+    
+    body {
+        font-family: "Times New Roman", serif;
+        margin: 20px;
+        background-color: white; /* Fundo branco */
+    }
+    
+    .container {
+        max-width: 100000px;
+        margin: 0 auto;
+        padding: 50px;
+    }
+    
+    .titulo {
+        font-size: 80px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .conteudo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .texto {
+        font-size: 19px;
+        text-align: justify;
+        width: 65%;
+        padding-right: 1px;
+        line-height: 2.0;
+    }
+    
+    .imagem {
+        width: 80%;
+        text-align: right;
+    }
+    
+    .imagem img {
+        max-width: 70%;
+        height: auto;
+    }
+    
